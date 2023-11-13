@@ -35,7 +35,7 @@ async function computerLoad() {
                   <input
                     type="number"
                     class="py-2 px-4 border border-zinc-200 focus:outline-none w-full"
-                    value="1"
+                    value="1" min="1"
                     id="myInput"
                   />
                   <button
@@ -84,8 +84,9 @@ async function mobileLoad() {
                   <input
                     type="number"
                     class="py-2 px-4 border border-zinc-200 focus:outline-none w-full"
-                    value="1"
-                      id="myInput"
+                    value="1" 
+                    min="1"
+                    id="myInput"
                   />
                   <button
                         id="myBtn"
@@ -134,7 +135,8 @@ async function accessoriesLoad() {
                     type="number"
                     class="py-2 px-4 border border-zinc-200 focus:outline-none w-full"
                     value="1"
-                      id="myInput"
+                    min="1"
+                    id="myInput"
                   />
                   <button
                  id="myBtn"
