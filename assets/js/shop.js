@@ -70,7 +70,7 @@ async function mobileLoad() {
       response.forEach((item) => {
         itemsShow += ` 
             <div
-              class="flex-1 min-w-[280px] max-w-[350px] mx-auto item bg-white border border-zinc-200 px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
+              class=" hover:scale-105 hover:border-sky-100 hover:border-4 flex-1 min-w-[280px] max-w-[350px] mx-auto item bg-white border border-zinc-200 px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
             >
               <div class="pb-3">
                  <h2 class="pb-3" id="name">${item.title}</h2>
@@ -119,7 +119,7 @@ async function accessoriesLoad() {
       response.forEach((item) => {
         itemsShow += ` 
             <div
-              class="flex-1 min-w-[280px] max-w-[350px] mx-auto item bg-white border border-zinc-200 px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
+              class=" hover:scale-105 hover:border-sky-100 hover:border-4 flex-1 min-w-[280px] max-w-[350px] mx-auto item bg-white border border-zinc-200 px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
             >
               <div class="pb-3">
                 <h2 class="pb-3" id="name">${item.title}</h2>
