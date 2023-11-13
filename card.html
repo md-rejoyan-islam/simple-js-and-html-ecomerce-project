@@ -64,27 +64,19 @@
                   <th>Total</th>
                   <th>action</th>
                 </thead>
-                <tbody class="text-center" id="shopping_items">
+                <tbody class="text-center" id="shopping_items"></tbody>
+                <tfoot class="border-t bg-zinc-50">
                   <tr>
-                    <td>
-                      <figure>
-                        <img src="./assets/images/computer/item1.webp"
-                        class="w-[70px] mx-auto alt="" />
-                      </figure>
+                    <td
+                      colspan="4"
+                      class="py-2 text-[18px] text-center font-semibold"
+                    >
+                      Total Cost
                     </td>
-                    <td>hello product</td>
-                    <td>2</td>
-                    <td>2000</td>
-                    <td>40000</td>
-                    <td>
-                      <button
-                        class="text-sm bg-red-400 rounded-sm hover:bg-red-600 py-2 px-3 text-white"
-                      >
-                        remove
-                      </button>
-                    </td>
+                    <td class="text-center" id="total_price">3400</td>
+                    <td></td>
                   </tr>
-                </tbody>
+                </tfoot>
               </table>
             </div>
           </div>
@@ -143,7 +135,7 @@
 
     <!-- modal  -->
     <div
-      class="transition-all duration-300 h-screen w-full fixed top-4 left-0 right-0 mx-auto text-center"
+      class="hidden transition-all duration-300 h-screen w-full fixed top-4 left-0 right-0 mx-auto text-center"
       id="modal"
     >
       <div
