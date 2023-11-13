@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "brand": "A4Tech",
+    "photo": "item1.webp",
+    "title": "A4Tech Bloody M590i Virtual",
+    "price": "4200"
+  },
+  {
+    "id": 2,
+    "brand": "A4Tech",
+    "photo": "item2.webp",
+    "title": "A4tech Bloody S510R RGB Keyboard",
+    "price": "2200"
+  },
+  {
+    "id": 3,
+    "brand": "A4Tech",
+    "photo": "item3.webp",
+    "title": "A4tech PK-825P Web Camera",
+    "price": "6000"
+  },
+  {
+    "id": 4,
+    "brand": "UBOOM",
+    "photo": "item4.webp",
+    "title": "EarFun UBOOM L Portable Speaker",
+    "price": "8610"
+  }
+]

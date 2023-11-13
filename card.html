@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Shop</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="bg-zinc-50 py-4 border-b">
+      <div
+        class="container xl:w-[1100px] mx-auto flex justify-between items-center px-4"
+      >
+        <!-- logo -->
+        <figure>
+          <span class="sm:text-[2rem] text-[1.5rem] font-bold">STORE</span>
+        </figure>
+        <!-- menu  -->
+        <nav class="flex justify-between items-center">
+          <ul class="flex gap-4 font-semibold sm:text-xl">
+            <li>
+              <a
+                href="/"
+                class="hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/shop.html"
+                class="hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                href="/card.html"
+                class="text-white bg-slate-600 hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white"
+                >Card</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main body  -->
+    <main class="px-4 pt-6 pb-20">
+      <div class="container xl:w-[1100px] mx-auto">
+        <!-- selected product  -->
+        <div>
+          <h1 class="text-xl font-semibold my-3">Shopping Card</h1>
+          <div>
+            <div class="overflow-auto">
+              <table
+                class="w-full min-w-[700px] p-4 rounded-lg border border-zinc-200 overflow-auto"
+              >
+                <thead class="border-b w-full">
+                  <th>Images</th>
+                  <th>Name</th>
+                  <th>Quantity</th>
+                  <th>Unit Price</th>
+                  <th>Total</th>
+                  <th>action</th>
+                </thead>
+                <tbody class="text-center" id="shopping_items">
+                  <tr>
+                    <td>
+                      <figure>
+                        <img src="./assets/images/computer/item1.webp"
+                        class="w-[70px] mx-auto alt="" />
+                      </figure>
+                    </td>
+                    <td>hello product</td>
+                    <td>2</td>
+                    <td>2000</td>
+                    <td>40000</td>
+                    <td>
+                      <button
+                        class="text-sm bg-red-400 rounded-sm hover:bg-red-600 py-2 px-3 text-white"
+                      >
+                        remove
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer  -->
+    <footer class="py-6 w-full bg-zinc-800 text-white">
+      <div
+        class="contain sm:flex justify-between items-center px-10 xl:w-[1100px] px-4 mx-auto"
+      >
+        <div>
+          <p class="text-sm sm:text-left text-center">
+            © 2023, All Rights Reserved
+          </p>
+        </div>
+        <div class="flex gap-5 items-center justify-between">
+          <figure>
+            <a href="">
+              <img
+                src="./assets/images/card/card.png"
+                class="w-[50px]"
+                alt="master card"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href=""
+              ><img
+                src="./assets/images/card/paypal.png"
+                alt="paypal card"
+                class="w-[50px]"
+            /></a>
+          </figure>
+          <figure>
+            <a href=""
+              ><img
+                src="./assets/images/card/visa.png"
+                alt="visa card"
+                class="w-[50px]"
+            /></a>
+          </figure>
+          <figure>
+            <a href="">
+              <img
+                src="./assets/images/card/payment.png"
+                alt="western bank card"
+                class="w-[50px]"
+              />
+            </a>
+          </figure>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/card.js"></script>
+  </body>
+</html>

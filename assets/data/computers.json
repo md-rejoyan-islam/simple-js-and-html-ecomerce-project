@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "brand": "Acer",
+    "photo": "item1.webp",
+    "title": "Acer Aspire 7 A715-42G-R2NE",
+    "price": "76000"
+  },
+  {
+    "id": 2,
+    "brand": "Asus",
+    "photo": "item2.webp",
+    "title": "Asus ZenBook Duo UX482EAR",
+    "price": "120000"
+  },
+  {
+    "id": 3,
+    "brand": "HP",
+    "photo": "item3.webp",
+    "title": "HP 15s-eq3619AU Ryzen",
+    "price": "56000"
+  },
+  {
+    "id": 4,
+    "brand": "HP",
+    "photo": "item4.webp",
+    "title": "HP 15s-fq5620TU Core i5",
+    "price": "87100"
+  }
+]

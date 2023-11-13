@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Shop</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="bg-zinc-50 py-4 border-b">
+      <div
+        class="container xl:w-[1100px] mx-auto flex justify-between items-center px-4"
+      >
+        <!-- logo -->
+        <figure>
+          <span class="sm:text-[2rem] text-[1.5rem] font-bold">STORE</span>
+        </figure>
+        <!-- menu  -->
+        <nav class="flex justify-between items-center">
+          <ul class="flex gap-4 font-semibold sm:text-xl">
+            <li>
+              <a
+                href="/"
+                class="hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/shop.html"
+                class="hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white text-white bg-slate-600"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                href="/card.html"
+                class="hover:bg-slate-600 py-2 px-3 rounded-md hover:text-white"
+                >Card</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main body  -->
+    <main class="px-4 py-6">
+      <div class="container xl:w-[1100px] mx-auto" id="all_items">
+        <!-- computer product  -->
+        <div>
+          <h1 class="text-2xl font-semibold py-2">Computer</h1>
+          <div
+            class="items md:flex gap-4 space-y-6 md:space-y-0 flex-wrap"
+            id="computer_items"
+          ></div>
+        </div>
+        <!-- mobile product  -->
+        <div class="my-5">
+          <h1 class="text-2xl font-semibold py-2">Mobile</h1>
+          <div
+            class="items md:flex gap-4 space-y-6 md:space-y-0 flex-wrap"
+            id="mobile_items"
+          ></div>
+        </div>
+
+        <!-- accessories product  -->
+        <div class="my-5">
+          <h1 class="text-2xl font-semibold py-2">Accessories</h1>
+          <div
+            class="items md:flex gap-4 space-y-6 md:space-y-0 flex-wrap"
+            id="accessories_items"
+          ></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer  -->
+    <footer class="py-6 w-full bg-zinc-800 text-white">
+      <div
+        class="contain sm:flex justify-between items-center px-10 xl:w-[1100px] px-4 mx-auto"
+      >
+        <div>
+          <p class="text-sm sm:text-left text-center">
+            © 2023, All Rights Reserved
+          </p>
+        </div>
+        <div class="flex gap-5 items-center justify-between">
+          <figure>
+            <a href="">
+              <img
+                src="./assets/images/card/card.png"
+                class="w-[50px]"
+                alt="master card"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a href=""
+              ><img
+                src="./assets/images/card/paypal.png"
+                alt="paypal card"
+                class="w-[50px]"
+            /></a>
+          </figure>
+          <figure>
+            <a href=""
+              ><img
+                src="./assets/images/card/visa.png"
+                alt="visa card"
+                class="w-[50px]"
+            /></a>
+          </figure>
+          <figure>
+            <a href="">
+              <img
+                src="./assets/images/card/payment.png"
+                alt="western bank card"
+                class="w-[50px]"
+              />
+            </a>
+          </figure>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/shop.js"></script>
+  </body>
+</html>

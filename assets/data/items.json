@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Mobiles & Tablets",
+    "photo": "mobile.png"
+  },
+  {
+    "id": 2,
+    "name": "Gadgets & Accessories",
+    "photo": "accelator.png"
+  },
+  {
+    "id": 3,
+    "name": "Computers & Laptop",
+    "photo": "computer.png"
+  }
+]

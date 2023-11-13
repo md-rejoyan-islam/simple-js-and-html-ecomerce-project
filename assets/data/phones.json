@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "brand": "OPPO",
+    "photo": "item1.webp",
+    "title": "OPPO A17k Smartphone ",
+    "price": "16000"
+  },
+  {
+    "id": 2,
+    "brand": "Vivo",
+    "photo": "item2.webp",
+    "title": "Vivo Y16 Smartphone",
+    "price": "12000"
+  },
+  {
+    "id": 3,
+    "brand": "Honor",
+    "photo": "item3.webp",
+    "title": "Honor 90 5G Smartphone",
+    "price": "56000"
+  },
+  {
+    "id": 4,
+    "brand": "IPhone",
+    "photo": "item4.webp",
+    "title": "iPhone 14 Pro Max",
+    "price": "127100"
+  }
+]
