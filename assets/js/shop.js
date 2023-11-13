@@ -159,12 +159,18 @@ async function accessoriesLoad() {
 
 const cardItems = JSON.parse(localStorage.getItem("buy")) || [];
 
+const modal = document.getElementById("modal");
+
 const all_items = document.getElementById("all_items");
 // computer item click event
 all_items.addEventListener("click", (e) => {
   e.preventDefault();
 
   if (e.target.id === "myBtn") {
+    // modal show
+    modal.classList.remove("hidden");
+
+    // others
     const parent = e.target.parentElement.parentElement.parentElement;
     const inputValue = e.target.previousElementSibling.value;
     const price = parent.querySelector("#price").innerText;
@@ -177,5 +183,10 @@ all_items.addEventListener("click", (e) => {
     cardItems.push(productDetails);
     // save to local storage
     localStorage.setItem("buy", JSON.stringify(cardItems));
+
+    // modal off
+    setTimeout(() => {
+      modal.classList.add("hidden");
+    }, 2000);
   }
 });
