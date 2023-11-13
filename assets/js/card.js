@@ -8,7 +8,7 @@ shopping_items.addEventListener("DomContentLoaded", shoppingLoad());
 // shopping items
 function shoppingLoad() {
   let itemsShow = "";
-  const items = JSON.parse(localStorage.getItem("buy"));
+  const items = JSON.parse(localStorage.getItem("buy")) || [];
 
   let sum = 0;
   if (items.length > 0) {
