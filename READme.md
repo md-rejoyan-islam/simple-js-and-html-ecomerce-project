@@ -1,5 +1,9 @@
 ## Simple E-Commerce Project Using JavaScript
 
+### Description
+
+Here user can easily show any product with details. After choose a product, user can easily add to card. User can remove product from card list.
+
 ### Using
 
 - HTML:5
