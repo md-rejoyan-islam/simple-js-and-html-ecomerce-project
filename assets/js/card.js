@@ -35,13 +35,22 @@ function shoppingLoad() {
   shopping_items.innerHTML = itemsShow;
 }
 
+const modal = document.getElementById("modal");
+
 // remove item
 shopping_items.addEventListener("click", (e) => {
   if (e.target.id === "remove") {
+    // modal show
+    modal.classList.remove("hidden");
     const index = e.target.dataset.index;
     const items = JSON.parse(localStorage.getItem("buy"));
     items.splice(index, 1);
     localStorage.setItem("buy", JSON.stringify(items));
     shoppingLoad();
+
+    // modal off
+    setTimeout(() => {
+      modal.classList.add("hidden");
+    }, 2000);
   }
 });
