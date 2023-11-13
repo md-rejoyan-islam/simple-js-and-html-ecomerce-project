@@ -1,3 +1,7 @@
+// modal
+const modal = document.getElementById("modal");
+
+// loaded buying product list
 const shopping_items = document.getElementById("shopping_items");
 shopping_items.addEventListener("DomContentLoaded", shoppingLoad());
 
@@ -52,9 +56,7 @@ function shoppingLoad() {
                   </tr>`;
 }
 
-const modal = document.getElementById("modal");
-
-// remove item
+// remove item form shopping list
 shopping_items.addEventListener("click", (e) => {
   if (e.target.id === "remove") {
     // modal show
