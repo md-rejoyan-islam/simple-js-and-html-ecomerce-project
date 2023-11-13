@@ -6,10 +6,12 @@ function shoppingLoad() {
   let itemsShow = "";
   const items = JSON.parse(localStorage.getItem("buy"));
 
-  if (items) {
+  let sum = 0;
+  if (items.length > 0) {
     items.forEach((item, index) => {
+      sum += Number(item.quantity) * Number(item.price);
       itemsShow += `
-         <tr >
+         <tr class="hover:bg-zinc-100 cursor-pointer" >
                     <td>
                       <figure>
                         <img src="./assets/images/computer/item1.webp"
@@ -31,8 +33,23 @@ function shoppingLoad() {
                     </td>
                   </tr>`;
     });
+  } else {
+    itemsShow += `<tr > <td colspan="6" class="text-center py-4 text-red-600">No Item Added</td> </tr>`;
   }
   shopping_items.innerHTML = itemsShow;
+
+  // footer added
+  const footer = document.getElementById("table-footer");
+  footer.innerHTML = ` <tr>
+                    <td
+                      colspan="4"
+                      class="py-2 text-[18px] text-center font-semibold"
+                    >
+                      Total Cost
+                    </td>
+                    <td class="text-center" id="total_price">${sum}</td>
+                    <td></td>
+                  </tr>`;
 }
 
 const modal = document.getElementById("modal");
