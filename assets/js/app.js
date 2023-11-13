@@ -12,7 +12,7 @@ async function productLoad() {
     if (response) {
       response.forEach((item) => {
         itemsShow += `<div
-            class="flex-1 max-w-[500px] mx-auto item bg-[#f2f1ed] px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
+            class="flex-1 max-w-[350px] min-w-[280px] mx-auto item bg-[#f2f1ed] px-4 sm:pt-3 p-4 rounded-md flex flex-col-reverse sm:flex gap-3 items-center text-center text-xl"
           >
             <div class="">
               <h2 class="py-4">${item.name}</h2>

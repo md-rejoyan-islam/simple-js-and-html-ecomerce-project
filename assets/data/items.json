@@ -13,5 +13,15 @@
     "id": 3,
     "name": "Computers & Laptop",
     "photo": "computer.png"
+  },
+  {
+    "id": 4,
+    "name": "TV & Home Appliances",
+    "photo": "tv.png"
+  },
+  {
+    "id": 5,
+    "name": "Tablets & Accessories",
+    "photo": "tablet.webp"
   }
 ]
