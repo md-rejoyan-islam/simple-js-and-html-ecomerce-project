@@ -18,7 +18,7 @@ async function productLoad() {
               <h2 class="py-4">${item.name}</h2>
               <a
                 href="./shop.html"
-                class="text-white hover:bg-violet-600 bg-violet-500 px-3 py-2 rounded-md"
+                class="text-white  hover:bg-violet-600 bg-violet-500 px-3 py-2 rounded-md"
                 >shop now</a
               >
             </div>
