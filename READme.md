@@ -18,5 +18,5 @@ Here user can easily show any product with details. After choose a product, user
 
 ### Neccesary Link
 
-<a href="">Live Preview </a> <br>
+<a href="https://simple-ecommece-project-using-js.netlify.app/">Live Preview </a> <br>
 <a href= "">GitHub Link </a>
