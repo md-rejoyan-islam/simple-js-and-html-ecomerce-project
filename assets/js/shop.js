@@ -167,7 +167,7 @@ async function accessoriesLoad() {
 
 const cardItems = JSON.parse(localStorage.getItem("buy")) || [];
 
-// product item click event
+// product item click event ( buy product )
 all_items.addEventListener("click", (e) => {
   e.preventDefault();
 
