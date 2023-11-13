@@ -1,3 +1,9 @@
+// modal
+const modal = document.getElementById("modal");
+
+// product item click event
+const all_items = document.getElementById("all_items");
+
 // computer items + load computer items
 const computer_items = document.getElementById("computer_items");
 computer_items.addEventListener("DomContentLoaded", computerLoad());
@@ -10,7 +16,7 @@ mobile_items.addEventListener("DomContentLoaded", mobileLoad());
 const accessories_items = document.getElementById("accessories_items");
 accessories_items.addEventListener("DomContentLoaded", accessoriesLoad());
 
-// computer items
+// load computer items
 async function computerLoad() {
   let itemsShow = "";
   try {
@@ -59,7 +65,7 @@ async function computerLoad() {
   } catch (error) {}
 }
 
-// mobile items
+// load mobile items
 async function mobileLoad() {
   let itemsShow = "";
   try {
@@ -109,7 +115,7 @@ async function mobileLoad() {
   } catch (error) {}
 }
 
-// mobile items
+//load mobile items
 async function accessoriesLoad() {
   let itemsShow = "";
   try {
@@ -161,10 +167,7 @@ async function accessoriesLoad() {
 
 const cardItems = JSON.parse(localStorage.getItem("buy")) || [];
 
-const modal = document.getElementById("modal");
-
-const all_items = document.getElementById("all_items");
-// computer item click event
+// product item click event
 all_items.addEventListener("click", (e) => {
   e.preventDefault();
 
