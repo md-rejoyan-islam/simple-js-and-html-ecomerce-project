@@ -19,4 +19,4 @@ Here user can easily show any product with details. After choose a product, user
 ### Neccesary Link
 
 <a href="https://simple-ecommece-project-using-js.netlify.app/">Live Preview </a> <br>
-<a href= "">GitHub Link </a>
+<a href= "https://github.com/RejoyanIslam/simple-js-and-html-ecomerce-project">GitHub Link </a>
