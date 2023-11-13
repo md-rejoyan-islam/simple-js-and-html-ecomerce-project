@@ -1,8 +1,8 @@
+//  load product items
 const product_items = document.getElementById("product_items");
-// load product items
 product_items.addEventListener("DomContentLoaded", productLoad());
 
-// home page product items
+// home page product summary items load
 async function productLoad() {
   let itemsShow = "";
   try {
@@ -35,5 +35,3 @@ async function productLoad() {
     product_items.innerHTML = itemsShow;
   } catch (error) {}
 }
-
-// productLoad();
